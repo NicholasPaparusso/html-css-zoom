@@ -84,6 +84,7 @@ header button:hover{
     position: relative;
     top: 0;
     left: 0;
+    cursor: pointer;
  }
 
  main .user-card img{
@@ -98,6 +99,11 @@ main .user-card span{
   bottom: 0;
   background-color: rgba(100, 100, 100, 0.8);
   padding: 4px 8px; 
+}
+
+main .user-card:hover{
+  height: calc(140px + 50%);
+  width: calc(230px + 1%) ;
 }
 /* Main */
 /* Footer */
