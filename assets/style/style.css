@@ -1,0 +1,80 @@
+/* General */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+  height: 50px;
+}
+
+footer{
+  height: 75px;
+ 
+}
+
+main{
+  height: calc(100vh - 125px);
+  width: 100%;
+  padding: 20px 80px;
+  overflow: auto;
+}
+/* General */
+/* Utilities */
+.bg-light-dark{
+  background-color: #222222;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.debug{
+  background-color: red;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  row-gap: 16px;
+}
+/* Utilities */
+/* Header */
+/* Header */
+/* Main */
+main .user{
+ 
+}
+
+ main .user-card{
+    height: 140px;
+    width: 230px ;
+    position: relative;
+    top: 0;
+    left: 0;
+ }
+
+ main .user-card img{
+  height: 100%;
+  width: 100%;
+}
+
+main .user-card span{
+  color: white;
+  position: absolute;
+  left:0;
+  bottom: 0;
+  background-color: rgba(102, 111, 123, 0.8);
+  padding: 4px 8px; 
+}
+/* Main */
+/* Footer */
+/* Footer */
