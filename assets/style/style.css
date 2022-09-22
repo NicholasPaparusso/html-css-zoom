@@ -48,12 +48,33 @@ main{
 }
 /* Utilities */
 /* Header */
-/* Header */
-/* Main */
-main .user{
- 
+header nav{
+  position: relative;
 }
 
+header button{
+  all: initial;
+  padding: 6px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(100, 100, 100, 0.6);
+  position: absolute;
+  right: 44px;
+  top: 10px;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+header button:nth-of-type(2){
+  right: 15px;
+}
+
+header button:hover{
+  background-color: rgba(100, 100, 100, 0.9);
+}
+
+/* Header */
+/* Main */
  main .user-card{
     height: 140px;
     width: 230px ;
@@ -72,7 +93,7 @@ main .user-card span{
   position: absolute;
   left:0;
   bottom: 0;
-  background-color: rgba(102, 111, 123, 0.8);
+  background-color: rgba(100, 100, 100, 0.8);
   padding: 4px 8px; 
 }
 /* Main */
