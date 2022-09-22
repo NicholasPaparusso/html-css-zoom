@@ -129,6 +129,37 @@ footer button span{
 
 }
 
+footer .chevron i::after{
+  /* font-family: "Font Awesome 5 Free"; Non mi funzionava sta volta */
+  content: "\2303";
+  color: white;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+footer button:hover{
+  color: gainsboro;
+}
+
+footer button:active{
+  color: lightgreen;
+}
+
+footer .col.right{
+  height: 100%;
+}
+
+footer .col.right button{
+  color: red;
+  height: 100%;
+  padding: 0 20px;
+  }
+
+  footer .col.right button:hover{
+  background-color: #4a4a4a;
+    }
+
 @media screen and ( max-width: 1200px ) {
   footer button span{
     display: none;
