@@ -102,8 +102,8 @@ main .user-card span{
 }
 
 main .user-card:hover{
-  height: calc(140px + 50%);
-  width: calc(230px + 1%) ;
+  height: calc(140px + 2%);
+  width: calc(230px + 2%) ;
 }
 /* Main */
 /* Footer */
@@ -123,7 +123,7 @@ footer button{
 
 footer button i{
   transform: translate();
-  font-size: 1.25vw ;
+  font-size: 1.3em ;
   position: relative;
   left: 50%;
   transform: translate(-50%);
@@ -140,16 +140,17 @@ footer .chevron i::after{
   content: "\2303";
   color: white;
   display: inline-block;
-  position: relative;
-  left: 30px;
   font-size: 0.6rem;
+  position: relative;
+  top: 0;
+  left: 2vw;  
 }
 
 footer button:hover{
   color: gainsboro;
 }
 
-footer button:active{
+footer button:active i{
   color: lightgreen;
 }
 
